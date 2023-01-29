@@ -1,0 +1,43 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+body {
+  font-family: Lato, Helvetica, sans-serif;
+}
+
+.right { float: right; }
+
+.site-footer {
+  border: none;
+  padding: 30px 0 10px 0;
+
+  .wrapper {
+    border-top: 1px solid #424242;
+    padding-top: 15px;
+  }
+}
+
+.footer-col {
+  margin-bottom: 0px;
+}
+
+.site-header {
+  border: none;
+
+  .wrapper {
+    border-bottom: 1px solid #424242;
+  }
+}
+
+.site-title, .site-nav {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.padding-top-20 {
+  padding-top: 20px;
+}
