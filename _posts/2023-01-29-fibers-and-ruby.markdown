@@ -31,7 +31,6 @@ This automatically makes all standard Ruby calls scheduler-friendly. However, th
 
 ### Different kinds of event selectors
 
-Different kinds of event selectors
 An event selector is a Linux kernel feature that allows a program to monitor multiple file descriptor sources for events, such as input or output operations. In other words, that is a mechanism that among other things can notify a program whenever a specific non-blocking operation is complete.
 
 For example, if the fiber was blocked because no data was available on the socket it reads from, it should be resumed once the data arrives. The scheduler should be notified that the non-blocking operation is complete by using one of the next strategies underneath:
