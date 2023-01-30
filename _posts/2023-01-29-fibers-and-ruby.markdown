@@ -2,7 +2,7 @@
 layout: post
 title:  "Fibers and Ruby"
 date:   2023-01-29 18:43:25 +0100
-categories: ruby
+categories: ruby fibers
 ---
 Ruby 3 has introduced a game-changing feature for concurrent programming with the release of `Fiber::SchedulerInterface`. This powerful tool allows developers to manage fibers, making it easier to handle context switching in I/O-bound tasks.
 
@@ -43,5 +43,7 @@ For example, if the fiber was blocked because no data was available on the socke
 Most production systems would most likely use `epoll()` as it’s the most common approach for Linux systems, however it might worth giving a try to io_uring if it’s supported by the specific Fiber.scheduler and is available in the OS.
 
 It worth mentioning that before the arrival of Fiber scheduler, the main library which took care of I/O events start/end detections was [Nio4r](https://github.com/socketry/nio4r). And it is still used in Action Cable, Puma, Async v1 and a lot of other libraries dealing with I/O.
+
+*[The next article](https://tuwukee.github.io/ruby/2023/01/29/fibers-based-async-background-job-processor.html) of the series.*
 
 *The article was originaly posted at [medium](https://medium.com/@alieckaja/unleashing-the-power-of-fibers-for-background-jobs-8a22e3a38cd1)* but now it's splitted in parts and migrated to this blog.
