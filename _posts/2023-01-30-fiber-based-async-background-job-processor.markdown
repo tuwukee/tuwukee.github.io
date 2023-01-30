@@ -5,7 +5,7 @@ date:   2023-01-30 21:37:00 +0100
 categories: ruby fibers
 ---
 
-*This is part 2 of the series about Fibers. The first part is [here](https://tuwukee.github.io/ruby/fibers/2023/01/29/fibers-and-ruby.html).*
+*This is part 2 of the series about Fibers. The first part is [here]({% post_url 2023-01-29-fibers-and-ruby %}).*
 
 Usually, the systems manage all I/O waiting by allocating a separate OS thread for every request or worker. This approach is effective to some extent, but OS thread is relatively expensive to create and the context switches performed by the OS also don’t come for free. This leads to a lot of overhead. With fibers, it is possible to utilize non-blocking I/O to minimize this overhead.
 
