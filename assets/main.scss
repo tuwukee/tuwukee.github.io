@@ -48,10 +48,6 @@ body {
   text-transform: uppercase;
 }
 
-.padding-top-20 {
-  padding-top: 20px;
-}
-
 .site-nav .page-link {
   color: $sable;
 }
@@ -67,9 +63,17 @@ body {
 }
 
 .social-media-list {
-  margin-bottom: 0;
+  margin-bottom: 5px;
 }
 
 .footer-col-wrapper {
   margin-bottom: 5px;
+}
+
+.avatar {
+  border-radius: 50%;
+  display: block;
+  margin: 0 35px 5px 0;
+  width: 120px;
+  float: left;
 }
