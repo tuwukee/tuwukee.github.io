@@ -5,3 +5,6 @@ _site
 vendor
 Gemfile.lock
 .DS_Store
+tmp
+dump.rdb
+.ruby-version
