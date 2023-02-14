@@ -3,7 +3,7 @@ layout: post
 title:  "Granting at least once delivery"
 date:   2023-02-14 08:00:00 +0100
 categories: ruby fibers
-thumbnail: /assets/images/granting-at-least-once-delivery-diagram-1.svg
+thumbnail: /assets/images/granting-thumb-diagram.png
 description: Exactly-once is the message delivery guarantee the most developers want to achieve in their systems. In the most cases, the implementation of the set of rules backing it up should include the application layer. When it comes to messaging systems, exactly-once delivery at an app level is much easier to be built on top of at-least-once, since at-most-once sometimes loses messages.
 ---
 
