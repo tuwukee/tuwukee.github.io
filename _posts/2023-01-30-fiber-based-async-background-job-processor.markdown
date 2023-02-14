@@ -124,6 +124,6 @@ When running the benchmarks with OSX (M1 processor) — they weren’t as good b
 
 I tried to test directly socketry/async against native Ruby threads, and against [Polyphony](https://github.com/digital-fabric/polyphony) — another interesting framework for fibers), and `Polyphony` actually works great on OSX M1. So the problem might be in `kqueue()` support implementation within `socketry/async` Fiber scheduler, but I didn’t get anywhere further than that, and it might be a false lead.
 
-*[The next article]({% post_url 2023-02-14-granting-at-least-once-delivery %}) of the series.*
+*[The next article]({% post_url 2023-02-14-granting-at-least-once %}) of the series.*
 
 *The article was originaly posted at [medium](https://medium.com/@alieckaja/unleashing-the-power-of-fibers-for-background-jobs-8a22e3a38cd1)* but now it's splitted in parts and migrated to this blog.
