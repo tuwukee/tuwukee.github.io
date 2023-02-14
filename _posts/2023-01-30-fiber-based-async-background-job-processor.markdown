@@ -3,6 +3,7 @@ layout: post
 title:  "Fiber based async background job processor"
 date:   2023-01-30 21:37:00 +0100
 categories: ruby fibers
+description: Justification of the idea of fiber based async background job processor and implementation
 ---
 
 *This is part 2 of the series about Fibers. The first part is [here]({% post_url 2023-01-29-fibers-and-ruby %}).*

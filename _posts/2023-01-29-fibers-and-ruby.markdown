@@ -3,6 +3,7 @@ layout: post
 title:  "Fibers and Ruby"
 date:   2023-01-29 18:43:25 +0100
 categories: ruby fibers
+description: Fiber, Fiber Scheduler, and event selectors overview
 ---
 Ruby 3 has introduced a game-changing feature for concurrent programming with the release of `Fiber::SchedulerInterface`. This powerful tool allows developers to manage fibers, making it easier to handle context switching in I/O-bound tasks.
 
